@@ -13,8 +13,9 @@ class main{
         }
         for(int i=0;i<freq.length;i++){
             if(freq[i]!=0){
-                System.out.println(i+"-"+freq[i]);
+                System.out.println(i+""+freq[i]);
             }
         }
+
     }
 }
