@@ -6,8 +6,10 @@ class main{
         int sum=0;
         int arr[]=new int[n];
         for(int i=0;i<n;i++) {
-         arr[i]=sc.nextInt();   
+         arr[i]=sc.nextInt();  
+         sum+=arr[i]; 
         }
+        System.out.print(arr[0]+sum);
         int freq[]=new int[10];
         for(int i=0;i<n;i++){
             freq[arr[i]]++;
